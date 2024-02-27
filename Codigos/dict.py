@@ -1,0 +1,1 @@
+#la funcion dict, nos permite almacenar los atributos de un objeto
