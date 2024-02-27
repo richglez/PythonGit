@@ -1,5 +1,8 @@
 #ACTIVIDAD 3. LISTAS, TUPLAS Y DICCIONARIOS DE DATOS EN PYTHON
 
+#RICARDO GONZALEZ BECERRA 
+
+#IMSTRUCCIONES:
 # Crea una colección de datos numérica 
 # (selecciona el tipo de contenedor que
 # utilizarás conforme a los requerimientos
@@ -29,10 +32,12 @@ def mediaAritmetica(list):
     print('Media Aritmetica: ', medArt)
 
 
+
+
 def mediana(list):
     #median()
     li = sorted(list) #lista ordenada
-    med = (len(list) + 1) / 2  #(n+1) /2
+    med = int((len(list) + 1) / 2)  #(n+1) /2
     print('Mediana: ',med)
     
     #verificar si es impar
