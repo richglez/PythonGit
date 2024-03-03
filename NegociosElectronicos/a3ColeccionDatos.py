@@ -29,19 +29,36 @@ def mediaAritmetica(list):
     print('Media Aritmetica: ', medArt)
 
 
-def mediana(list):
-    #median()
-    li = sorted(list) #lista ordenada
-    med = (len(list) + 1) / 2  #(n+1) /2
-    print('Mediana: ',med)
+# def mediana(list):
+#     #median()
+#     li = sorted(list) #lista ordenada
+#     med = (len(list) + 1) / 2  #(n+1) /2
+#     print('Mediana: ',med)
     
-    #verificar si es impar
-    if len(list) % 2 != 0:
-        return li[med]
+#     #verificar si es impar
+#     if len(list) % 2 != 0:
+#         return li[med]
 
-    #verificar si es impar
+#     #verificar si es impar
+#     else:
+#         return (li[med-1] + li[med]) / 2
+
+def mediana(list):
+    #VARIABLES
+    listaOrdenada = sorted(list)
+    numTotalDatos = len(listaOrdenada) # Obtener la cantidad total de datos
+    med = float(0.0)
+    
+    #CONDICIONES
+    if numTotalDatos % 2 == 1:
+        # Cantidad impar de datos, la mediana es el valor en el centro
+        med = listaOrdenada[numTotalDatos // 2]
     else:
-        return (li[med-1] + li[med]) / 2
+        # Cantidad par de datos, la mediana es el promedio de los dos valores en el centro
+        med = (listaOrdenada[numTotalDatos // 2 - 1] + listaOrdenada[numTotalDatos // 2]) / 2
+    print("La mediana es: ", med)
+
+
 
 
 
@@ -75,5 +92,5 @@ medianaLB(colNum)
 modaLB(colNum)
 
 mediaAritmetica(colNum)
-mediana(colNum)
+# mediana(colNum)
 moda(colNum)
