@@ -1,5 +1,8 @@
 #ACTIVIDAD 3. LISTAS, TUPLAS Y DICCIONARIOS DE DATOS EN PYTHON
 
+#RICARDO GONZALEZ BECERRA 
+
+#IMSTRUCCIONES:
 # Crea una colección de datos numérica 
 # (selecciona el tipo de contenedor que
 # utilizarás conforme a los requerimientos
