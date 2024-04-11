@@ -20,4 +20,4 @@ print("Tabla de conteo de estudiantes por genero y tipo de curso con descuento: 
 print(table)
 
 print("*" * 100)
-print(object(s), separator=separator, end=end, file=file, flush=flush)
+print("Tabla total de descuento por tipo de cursio")
