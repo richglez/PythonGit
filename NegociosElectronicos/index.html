@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/css/index.css">
+</head>
+<body>
+    <form action="" method="post">
+        <label for="">Meters</label>
+        <input type="text" name="textbox" value= {{user_text | safe}}> <br>
+        <label for="">Feet</label>
+        <label for="">{{output | safe}}</label><br>
+        <button type="submit" name="submit">Convert</button>
+    </form>
+    <div class="info-student">
+        <span>Nombre: Ricardo Gonzalez Becerra</span>
+        <span>Matricula: 100171170</span>
+    </div>
+</body>
+</html>
